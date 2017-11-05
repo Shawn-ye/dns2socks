@@ -1,0 +1,9 @@
+FROM resin/rpi-raspbian:latest
+
+RUN mkdir /home/dns2socks
+COPY dns2socks /home/dns2socks
+COPY start.sh /home/dns2socks
+WORKDIR /home/dns2socks
+RUN chmod +x dns2socks && chmod +x start.sh
+
+CMD ["./start.sh"]
