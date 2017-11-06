@@ -17,6 +17,12 @@ Modify ``start.sh`` to fit your environments.
 ###  Build & Run
 Use ``build_start_raspberry.sh`` to build binaries on your raspberry. Root permission is required to listening on port 53.
 
+##  Debian
+* Modify ``start.sh`` to fit your environments.
+* Use ``build_start_debian.sh`` to build binaries and run containers on debian.
+
+
+
 ---
 # The original readme
 ```
